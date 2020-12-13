@@ -40,14 +40,14 @@ h3 {
 }
 
 a {
-  color: #11999E;
+  color: #EAF6F6;
   font-family: 'Montserrat', sans-serif;
   margin: 10px 20px;
   text-decoration: none;
 }
 
 a:hover {
-  color: #EAF6F6
+  text-decoration: underline;
 }
 
 
@@ -122,10 +122,20 @@ a:hover {
 }
 
 
-.skill-row {
-  width: 50%;
-  margin: 100px auto;
+.skill-row-left {
+  width: 70%;
+  margin: 100px auto 200px;
   text-align: left;
+}
+
+.skill-row-left h3, .skill-row-right h3 {
+  padding-top: 30px;
+}
+
+.skill-row-right {
+  width: 70%;
+  margin: 100px auto 200px;
+  text-align: right;
 }
 
 .skill-img-1 {
